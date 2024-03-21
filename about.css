@@ -1,0 +1,119 @@
+.header{
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(233, 231, 231);
+}
+.navbar{
+	background-color: white;
+	font-family:calibri;
+	height: 140px;
+    width: 100%;
+
+}
+.navdiv{
+	display: flex;
+}
+.logo {
+	
+	line-height: 65px;
+	padding-left: 50px;
+}
+
+.navbar li{
+	list-style: none;
+}
+.navbar li a{
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+	padding-left: 70px;
+
+}
+
+.navbar ul{
+	display: flex;
+	line-height: 70px;
+	padding-left: 300px;
+
+}
+.footer{
+    width: 102%;
+    background-color: rgb(31, 31, 31);
+    margin-top: 25px;
+}
+
+.all{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.one{
+    margin: 20px;
+    padding: 50px;
+    background-color: aliceblue;
+    height: 500px;
+    width: 1200px;
+}
+.three{
+    text-align: center;
+}
+.paragraphs{
+    display:flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(170, 170, 189);
+    padding: 10px;
+    margin: 20px;
+}
+.paragraph1{
+    margin: 20px;
+    padding:50px ;
+}
+.paragraph2{
+    margin: 20px;
+    padding:50px ;
+}
+
+.afterparagraph{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+.four{
+    background-color: gray;
+    border-radius: 20px;
+}
+.five{
+    background-color: gray;
+    border-radius: 20px;
+}
+.six{
+    background-color: gray;
+    border-radius: 20px;
+}
+.seven{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    padding-top: 250px;
+}
+.thethree{
+    margin: 20px;
+    padding: 50px;
+    justify-content: center;
+}
